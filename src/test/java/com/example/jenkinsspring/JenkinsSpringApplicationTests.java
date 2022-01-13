@@ -17,6 +17,7 @@ class JenkinsSpringApplicationTests {
 	void contextLoads() {
 		LOG.info("Test case executed");
 		LOG.info("Test case executed for the second time.");
+
 		assertEquals(true, true);
 	}
 
